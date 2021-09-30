@@ -1,0 +1,33 @@
+{
+  "name": "portfolio-sass-bootstrap",
+  "version": "1.0.0",
+  "description": "responsive portfolio bootstrap bootstrap-v5 sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "portfolio"
+  ],
+  "author": "raouf",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.39.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "autoprefixer": "^10.3.4",
+    "bootstrap": "^5.1.1",
+    "postcss-cli": "^8.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meraouf/portfolio-sass-bootstrap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meraouf/portfolio-sass-bootstrap/issues"
+  },
+  "homepage": "https://github.com/meraouf/portfolio-sass-bootstrap#readme"
+}
